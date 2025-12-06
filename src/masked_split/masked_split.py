@@ -1,5 +1,5 @@
 import re
-from interval.src.intervalop.interval import contains, union, excluding, is_intersecting, remove_overlapping_intervals, complements
+from intervalop.interval import contains, union, excluding, is_intersecting, remove_overlapping_intervals, complements
 
 def get_delim_locations(s, delims):
     """

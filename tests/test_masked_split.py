@@ -1,5 +1,5 @@
-from .masked_split import get_delim_locations, filter_out_nodes, get_mask_locations, masked_split
-from . import test_masked_split_data as cases
+from masked_split.masked_split import get_delim_locations, filter_out_nodes, get_mask_locations, masked_split
+import test_masked_split_data as cases
 
 def test_delim_locations():
     for x, y, z in cases.get_delim_locations:
